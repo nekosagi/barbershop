@@ -1,0 +1,16 @@
+.button {
+    background-color: $nickel;
+    color: $platinum;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    padding: 15px 15px;
+
+    &:hover{
+        background-color: $light_gray;
+    }
+
+    &:focus {
+        border: 3px solid $light_gray;
+    }
+}

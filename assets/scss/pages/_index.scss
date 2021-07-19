@@ -1,0 +1,48 @@
+.blog{
+    margin-top: 100px;
+    line-height: 250%;
+
+    .blog__fecha{
+        margin-bottom: 80px;
+        color: $nickel;
+    }
+
+    .blog__parrafo{
+        margin-bottom: 50px;
+    }
+
+    .blog__destacado{
+        color: $fuzzy_wuzzy;
+    }
+}
+
+.thumbnails{
+    border-radius: 100% ;
+}
+
+.nav__pagination{
+    background-color: $platinum;
+    padding: 50px 0;
+}
+
+.pagination__border__left {
+    
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+}
+
+.pagination__border__right {
+    
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+
+.pagination__current {
+    background-color: $nickel !important;
+    border-color: $nickel !important;
+}
+
+.mycard{
+    margin-bottom: 0 !important;
+
+}

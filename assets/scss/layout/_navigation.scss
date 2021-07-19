@@ -1,0 +1,17 @@
+.nav {
+    background-color: $eerie_black;
+    color: $fuzzy_wuzzy;
+
+    .nav__icon{
+        margin-left: 10%;
+    }
+
+    .nav__text {
+        margin-right: 15%;
+        color: $white !important;
+    }
+
+    .nav__active{
+        color: $ruddy_pink !important;
+    }
+}

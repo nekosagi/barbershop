@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+
+
+body{
+    font-family: $roboto;
+}
+.header__text{
+    font-family: $playfair;
+    font-style: italic;
+    font-size: $xx-large;
+}
+
+@media (max-width: 600px) {
+    .header__text {
+        font-size: $x-large;
+    }
+}
+
+.section{
+    font-size: $large;
+    font-weight:300;
+
+    .section__fecha{
+        font-family: $playfair;
+    }
+}
+
+.mycard__tittle{
+    font-family: $playfair;
+    font-style: italic;
+    font-size: $x-large;
+}
+
+.mycard__subtittle{
+    color: $spanish_pink;
+    font-size: $large;
+    font-weight: 300;
+}
+
+.mycard__text{
+    color: $nickel;
+    line-height: 40px;
+    font-size: $medium;
+}
